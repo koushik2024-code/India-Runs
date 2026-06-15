@@ -1,0 +1,19 @@
+.git/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
+*.log
+
+# Large data files (don't commit the 487MB JSONL)
+candidates.jsonl
+*.jsonl
+sample_candidates.json
