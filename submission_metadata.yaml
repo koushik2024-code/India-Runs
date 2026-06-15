@@ -29,7 +29,7 @@ team_members:
 # ============================================================================
 github_repo: "https://github.com/koushik2024-code/India-Runs"
 
-sandbox_link: ""     # TODO: fill after deploying Streamlit app (see app.py)
+sandbox_link: "https://india-runs-1.streamlit.app/"
 
 reproduce_command: "python ranker.py --input ./candidates.jsonl --output submission.csv"
 
