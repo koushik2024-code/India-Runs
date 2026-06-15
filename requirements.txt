@@ -1,5 +1,1 @@
-# No third-party dependencies required — uses Python standard library only
-# (json, csv, heapq, math, pathlib, datetime, argparse, collections)
-
-# Optional for analysis
-# python-docx>=1.1.0  # Only needed to read .docx files (already installed)
+streamlit>=1.35.0

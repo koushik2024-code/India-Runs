@@ -1,0 +1,76 @@
+# Redrob Hackathon — Submission Metadata
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "koushik2024-code"
+
+primary_contact:
+  name: "Harshith Koushik"
+  email: ""          # TODO: fill your email
+  phone: ""          # TODO: fill your phone
+
+team_members:
+  - name: "Harshith Koushik"
+    email: ""        # TODO: fill your email
+    role: "Team Lead / ML Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/koushik2024-code/India-Runs"
+
+sandbox_link: ""     # TODO: fill after deploying Streamlit app (see app.py)
+
+reproduce_command: "python ranker.py --input ./candidates.jsonl --output submission.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Windows 11 Local"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.14"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Antigravity (Google DeepMind)"
+
+ai_usage_summary: |
+  Used Antigravity AI assistant for code architecture discussion and generation.
+  No candidate data was fed to any external LLM during ranking.
+  The ranking itself is fully deterministic and local — pure Python stdlib, no API calls.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Multi-signal hybrid scoring pipeline. Six weighted dimensions: (1) Core AI/ML
+  skills match (35%) — 3-tier JD-derived taxonomy scoring proficiency × duration
+  × endorsements; (2) Experience fit (20%) — Gaussian peak at 7 years plus title
+  and industry relevance; (3) Career depth / production signals (15%) — scans
+  career history text for production deployment keywords vs. research-only language;
+  (4) Platform behavioral signals (15%) — response rate, GitHub activity score,
+  interview completion, recency, verification; (5) Nice-to-have bonuses (10%) —
+  LLM fine-tuning, LTR, HR-tech background, OSS; (6) Multiplicative disqualifier
+  penalty for pure-research profiles, non-tech titles, and inactive candidates.
+  Streamed line-by-line with a min-heap of size 100. Processes 100,000 candidates
+  in ~55 seconds on CPU. No external APIs, fully reproducible.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: false
+  reproduction_tested: true
