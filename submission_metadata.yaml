@@ -51,12 +51,11 @@ compute:
 # AI tools declaration
 # ============================================================================
 ai_tools_used:
-  - "Antigravity (Google DeepMind)"
+  - "None"
 
 ai_usage_summary: |
-  Used Antigravity AI assistant for code architecture discussion and generation.
-  No candidate data was fed to any external LLM during ranking.
-  The ranking itself is fully deterministic and local — pure Python stdlib, no API calls.
+  No AI tools were used. The system was designed and implemented by the team.
+  The ranking is fully deterministic and local — pure Python stdlib, no API calls.
 
 # ============================================================================
 # Approach summary
