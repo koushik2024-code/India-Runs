@@ -3,17 +3,26 @@
 # ============================================================================
 # Team identity
 # ============================================================================
-team_name: "koushik2024-code"
+team_name: "Tech_Fusion"
 
 primary_contact:
-  name: "Harshith Koushik"
+  name: "Koushik Ram Reddy"
   email: "koushikramreddy.mogusala@gmail.com"
   phone: "+91-6304854034"
 
 team_members:
-  - name: "Harshith Koushik"
+  - name: "Koushik Ram Reddy"
     email: "koushikramreddy.mogusala@gmail.com"
     role: "Team Lead / ML Engineer"
+  - name: "Saiprakash Kulkarni"
+    email: "saiprakashkulkarni494@gmail.com"
+    role: "ML Engineer"
+  - name: "Md Shameem Alam"
+    email: "shameemrahmani7@gmail.com"
+    role: "Data Engineer"
+  - name: "KANUBUDDI Bhanu"
+    email: "bhanukanubuddi777@gmail.com"
+    role: "Backend Engineer"
 
 # ============================================================================
 # Code and reproducibility
