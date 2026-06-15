@@ -7,12 +7,12 @@ team_name: "koushik2024-code"
 
 primary_contact:
   name: "Harshith Koushik"
-  email: ""          # TODO: fill your email
-  phone: ""          # TODO: fill your phone
+  email: "koushikramreddy.mogusala@gmail.com"
+  phone: "+91-6304854034"
 
 team_members:
   - name: "Harshith Koushik"
-    email: ""        # TODO: fill your email
+    email: "koushikramreddy.mogusala@gmail.com"
     role: "Team Lead / ML Engineer"
 
 # ============================================================================
